@@ -35,11 +35,10 @@ int tsp(int graph[MAX_N][MAX_N], int n)
 int main()
 {
     int n;
-    cout << "Number of nodes: ";
     cin >> n;
 
     int graph[MAX_N][MAX_N];
-    cout << "Distance matrix:" << endl;
+    cout << endl;
     for (int i = 0; i < n; ++i)
     {
         for (int j = 0; j < n; ++j)
@@ -49,7 +48,7 @@ int main()
     }
 
     int min_path = tsp(graph, n);
-    cout << "Minimum path weight for TSP: " << min_path << endl;
+    cout  << min_path << endl;
 
     return 0;
 }
