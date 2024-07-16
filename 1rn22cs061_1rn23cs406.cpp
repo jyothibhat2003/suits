@@ -3,7 +3,7 @@
 using namespace std;
 
 const int MAX_N = 10; 
-const int INF = 500;
+const int INF = 50;
 
 int calculatePathDistance(int graph[MAX_N][MAX_N], int path[MAX_N], int n) 
 {
